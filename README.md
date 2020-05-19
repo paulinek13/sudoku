@@ -1,2 +1,6 @@
-# Sudoku-App
-This is an multipurpose sudoku application written in C++ and Allegro 5 library by Paulina Kalicka (PAULINEK)
+# [Sudoku App :wink:](https://paulinek-13.github.io/Sudoku-App/)
+## ![sudoku_app_1](images/sudoku_app_1.png)
+## ![sudoku_app_2](images/sudoku_app_2.png)
+## ![sudoku_app_3](images/sudoku_app_3.png)
+## ![sudoku_app_4](images/sudoku_app_4.png)
+## ![sudoku_app_5](images/sudoku_app_5.png)

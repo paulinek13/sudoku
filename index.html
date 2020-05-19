@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    * {
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Overpass Mono', monospace;
+    }
+
+    html {
+        font-size: 7vw;
+    }
+
+    body {
+        background-color: rgb(230, 245, 245);
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        flex: 1;
+
+        background-color: rgb(220, 220, 0);
+        margin: 0.2rem 1rem;
+        padding: 0.2rem;
+        font-size: .4rem;
+        text-align: center;
+    }
+
+    a:hover {
+        background-color: rgb(220, 220, 0, .7);
+    }
+
+    h1 {
+        font-family: 'Major Mono Display', monospace;
+
+        background-color: rgb(180, 20, 20);
+        margin: 0.2rem 1rem;
+        padding: 0.2rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    h1:hover {
+        background-color: rgb(200, 0, 0, 2);
+    }
+
+    article {
+        background-color: rgb(170, 230, 30);
+        margin: 0.2rem 1rem;
+        padding: 0.5rem;
+        font-size: .2rem;
+        text-align: center;
+    }
+
+    .images {
+        margin: 0.2rem 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(1fr, 100px));
+        grid-template-rows: repeat(4, minmax(1fr, 100px));
+        align-items: center;
+        justify-items: center;
+        grid-template-areas:
+            'a'
+            'b'
+            'c'
+            'd'
+            'e';
+    }
+
+    .images>img:nth-child(1) {
+        grid-area: a/a/a/a;
+    }
+
+    .images>img:nth-child(2) {
+        grid-area: b/b/b/b;
+    }
+
+    .images>img:nth-child(3) {
+        grid-area: c/c/c/c;
+    }
+
+    .images>img:nth-child(4) {
+        grid-area: d/d/d/d;
+    }
+
+    .images>img:nth-child(5) {
+        grid-area: e/e/e/e;
+    }
+
+    .images>img {
+        width: 75%;
+    }
+
+    #changelog {
+        text-align: left;
+
+    }
+
+    #changelog h2,
+    h3 {
+        text-align: center;
+    }
+
+    #changelog h4 {
+        color: rgb(180, 20, 20);
+    }
+</style>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sudoku App</title>
+    <link rel="icon" href="PAULINEK.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <nav>
+        <a href="https://github.com/Paulinek-13/Sudoku-App/releases">DOWNLOAD</a>
+        <a href="https://github.com/Paulinek-13/Sudoku-App">SOURCE CODE</a>
+    </nav>
+
+    <h1>Sudoku App</h1>
+
+    <article>
+        <h2>ABOUT</h2>
+        This is an multipurpose sudoku application <br>
+        written in C++ and Allegro 5 library <br>
+        by Paulina Kalicka (PAULINEK)
+        <br><br><br>
+        <h2>CREDITS</h2>
+        Used library: Allegro 5 (https://liballeg.org/)
+        <br><br><br>
+        Enjoy!
+    </article>
+
+    <div class="images">
+        <img src="images/sudoku_app_1.png" />
+        <img src="images/sudoku_app_2.png" />
+        <img src="images/sudoku_app_3.png" />
+        <img src="images/sudoku_app_4.png" />
+        <img src="images/sudoku_app_5.png" />
+    </div>
+
+    <article id="changelog">
+        <h2>CHANGELOG</h2> <br>
+
+        <h3>========== v1.0 (19-05-2020)</h3>
+
+        <h4>-> FIRST RELEASE</h4>
+
+        <h3>==========</h3>
+    </article>
+
+</body>
+
+</html>
