@@ -11,7 +11,7 @@ This is a multipurpose sudoku application written in C++ and Allegro 5 library b
 ## Credits
 
 - Used library: [Allegro 5](https://liballeg.org/)
-- Font Mini Square downloaded from [Kenny](https://kenney.nl/)
+- Font Mini Square downloaded from [Kenney](https://kenney.nl/)
 
 ## Notes
 
